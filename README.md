@@ -1,29 +1,30 @@
-Exercise 6 - Programming in Python 
+Exercise B3: Multithreading
 
-Use data structures, functions, exceptions and I/O as we learned in the class.
-
-1.	
-There is an input text file in which contains a stream of words in the following format:
-Each word is described by 3 values: 
--	Length of Length represents the number of characters representing the length
--	Length is the length of the text
--	Text is the text itself (including trailing spaces)
-For example: the text “Programming in Python” will be represented as following:
-212Programming 13in 16Python 
-
-Implement a function that gets the file name as a parameter and prints only the words with even length (אורך זוגי). If there is a problem with the data write “Error”.
+עבור תרגילים 1-3 בצע את הפעולות הבאות:
+כתוב תכנית בלי multithreading (רשות)
+מדוד זמנים כמה לקח כל שלב
+כתוב תכנית אחרת עם שימוש ב multithreading. חשוב מה נכון להכניס לכל thread.
+מדוד זמנים כמה לקח כל שלב
 
 
+חישוב ממוצע:
+צור 10 קבצים ובכל קובץ 100,000 מספרים אקראיים. כל מספר יכול להיות בין 1 ל 1000.
+לאחר שמסתיימת יצירת הקבצים התכנית תקרא את כל תוכנם ותחשב את הממוצע של כל המספרים שבכל הקבצים.
+מדוד זמנים: כמה זמן לקחה יצירת הקבצים וכמה זמן לקח חישוב הממוצע?
+בצע את הנ״ל והפעם עם 100 קבצים שבכל אחד 10,000 מספרים. 
+מדוד זמנים: כמה זמן לקחה יצירת הקבצים וכמה זמן לקח חישוב הממוצע?
 
-2.	
-There are 3 input files. Each one contains a stream of text characters. Some of these characters are valid hex numbers. 
-Write a function that gets 3 file names and returns a summary of all the hexa values that are written in them. So the following line will print the summary:
-print(summary_files(“file1.txt”, “file2.txt”, “file3.txt”))
+
+חישוב סכומים:
+צור קובץ ובו 100,000 מספרים אקראיים. כל מספר יכול להיות בין 1 ל 1000.
+לאחר שהקובץ נוצר חשב את סכום כל הערכים, את הסכום של כל הספרות הראשונות ואת הסכום של כל הספרות האחרונות.
+מדוד זמנים: כמה זמן לקחה יצירת הקבצים וכמה זמן לקח חישוב הסכומים?
+
+ציור גרף (רשות):
+צייר את הגרף של הפונקציה הבאה: x3- 6(2-x2)
+האם ניתן לצייר כל נקודה ב thread נפרד?
 
 
-3.	
-Write a function that reads a number from a file.
-If the number is 2 print “Up”, if number is 4 print “Left”, if number is 6 print “Right”, if number is 8 print “Down”. In all other cases print “Invalid Move”
-You are not allowed to use an if command.
+כתוב תוכנית שמייצרת deadlock.
 
 
